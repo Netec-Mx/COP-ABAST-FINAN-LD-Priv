@@ -3,12 +3,13 @@
 **Duración:** 105 min
 
 ## Descripción
-Los participantes utilizarán Microsoft 365 Copilot para apoyar el ciclo completo de elaboración y evaluación de una RFP/RFQ para los casos emblemáticos del banco (Biometría Facial, Contratación de IA y Contact Center) sin sustituir el criterio profesional de Abastecimiento. A partir de los requerimientos de la entidad, los participantes usarán Copilot Chat para transformar datos operativos en criterios evaluables y construir el pliego de condiciones. Posteriormente, trabajarán con propuestas de proveedores autogeneradas para extraer alcance, drivers de costo, condiciones comerciales, SLA, escalabilidad, supuestos y vacíos de información. Utilizarán Copilot en Word, Excel y PowerPoint (incluyendo la generación de imágenes conceptuales) para normalizar las ofertas, estructurar una matriz comparativa y preparar la presentación de la Mesa de Evaluación. Finalmente, resolverán un reto independiente para construir una presentación ejecutiva de recomendación en un archivo PowerPoint completamente nuevo.
+Los participantes utilizarán Microsoft 365 Copilot para apoyar el ciclo completo de elaboración y evaluación de una RFP/RFQ para los casos emblemáticos del banco (Biometría Facial, Contratación de IA y Contact Center) sin sustituir el criterio profesional de Abastecimiento. A partir de los requerimientos de la entidad, los participantes usarán Copilot en Word para transformar datos operativos en criterios evaluables y construir el pliego de condiciones. Posteriormente, trabajarán con respuestas de proveedores autogeneradas en Copilot Chat para extraer alcance, drivers de costo, condiciones comerciales, SLA, escalabilidad, supuestos y vacíos de información. Utilizarán Copilot en Excel y PowerPoint (incluyendo la generación de imágenes conceptuales) para normalizar las ofertas, estructurar una matriz comparativa y preparar la presentación de la Mesa de Evaluación. Finalmente, resolverán un reto independiente para construir una presentación ejecutiva de recomendación en un archivo PowerPoint completamente nuevo.
 
 ## Pasos para ejecutar la práctica
 
-1. **Transformación de requerimientos y construcción del pliego RFP en Microsoft Word:**
-   * Abre Microsoft 365 Copilot Chat y envía el siguiente prompt para estructurar la base de la RFP integrando los 3 casos:
+1. **Transformación de requerimientos y construcción del pliego RFP directamente en Microsoft Word:**
+   * Abre **Microsoft Word** en un documento en blanco.
+   * Activa **Copilot en Word** (modo **Edición** o la ventana emergente de borrador) y envía el siguiente prompt para estructurar y redactar la base de la RFP directamente sobre el documento:
      ```text
      Actúa como un Especialista en Sourcing Estratégico Bancario.
      
@@ -17,16 +18,16 @@ Los participantes utilizarán Microsoft 365 Copilot para apoyar el ciclo complet
      - Contratación de IA: Consumo de 70 a 100 billones de tokens/año a 5 años con modelos de cobro flexibilizados.
      - Contact Center: 300M llamadas/año, ajuste por IPC del 6% y SMMLV del 23%.
      
-     Genera la estructura formal de la RFP en las siguientes secciones:
+     Redacta la estructura formal de la RFP en el documento organizándola en las siguientes secciones:
      1. Objeto y Alcance Técnico.
      2. Acuerdos de Nivel de Servicio (SLA) y Penalizaciones.
      3. Esquema Comercial y Reglas de Escalabilidad Financiera.
      4. Matriz de Preguntas Obligatorias para la Propuesta del Proveedor.
      ```
-   * Abre **Microsoft Word** en un documento en blanco, activa **Copilot en Word**, copia o genera este contenido y guarda el archivo con el nombre exacto: `Pliego_RFP_Abastecimiento_Bancario.docx`.
+   * Revisa la redacción generada por Copilot en el documento y guarda el archivo con el nombre exacto: `Pliego_RFP_Abastecimiento_Bancario.docx`.
 
-2. **Autogeneración y normalización de propuestas competitivas de proveedores:**
-   * Abre Microsoft 365 Copilot Chat, adjunta el archivo `Pliego_RFP_Abastecimiento_Bancario.docx` y envía la siguiente instrucción para autogenerar las ofertas de dos proveedores competidores:
+2. **Autogeneración y normalización de propuestas competitivas de proveedores en Copilot Chat:**
+   * Abre **Microsoft 365 Copilot Chat**, adjunta el archivo `Pliego_RFP_Abastecimiento_Bancario.docx` generado en el Paso 1 y envía la siguiente instrucción para autogenerar las ofertas de dos proveedores competidores:
      ```text
      Con base en el pliego adjunto Pliego_RFP_Abastecimiento_Bancario.docx, autogenera la respuesta sintética de dos proveedores ficticios para la RFP:
      
@@ -36,17 +37,17 @@ Los participantes utilizarán Microsoft 365 Copilot para apoyar el ciclo complet
      Estructura la respuesta comparando para cada uno: Alcance, Drivers de Costo, Condiciones Comercial/SLA, Supuestos Tecnológicos y Exclusiones/Faltantes.
      ```
 
-3. **Construcción de la Matriz Comparativa y Normalización de Ofertas en Excel:**
+3. **Construcción de la Matriz Comparativa y Normalización de Ofertas en Microsoft Excel:**
    * Abre **Microsoft Excel** y crea un libro nuevo guardado como `Matriz_Evaluacion_Comparativa_RFP.xlsx`.
-   * En Copilot en Excel (modo **Edición**), envía la siguiente orden utilizando los datos normalizados de los proveedores Alfa y Beta:
+   * En **Copilot en Excel** (modo **Edición**), envía la siguiente orden utilizando los datos normalizados de los proveedores Alfa y Beta obtenidos en el Paso 2:
      ```text
      Estructura una Matriz de Evaluación Homologada de Ofertas con las columnas: Criterio_Evaluacion, Peso_Pct, Proveedor_Alfa_Oferta, Proveedor_Beta_Oferta, Puntuacion_Alfa (1-5), Puntuacion_Beta (1-5), Brecha_Identificada y Pregunta_Aclaracion_Ronda2.
      
      Puebla la matriz con 8 filas cubriendo aspectos técnicos, SLA, modelo económico e impacto de IPC/SMMLV. Aplica formato condicional para resaltar la puntuación más alta en cada criterio.
      ```
 
-4. **Elaboración de la Presentación de Avance con Apoyo Visual en PowerPoint:**
-   * Abre **Microsoft PowerPoint** y crea una presentación en blanco.
+4. **Elaboración de la Presentación de Avance con Apoyo Visual en Microsoft PowerPoint:**
+   * Abre **Microsoft PowerPoint** en una presentación en blanco.
    * Activa **Copilot en PowerPoint**, adjunta el documento `Pliego_RFP_Abastecimiento_Bancario.docx` y envía el siguiente prompt:
      ```text
      Crea una presentación de 3 diapositivas para la Mesa de Evaluación de Abastecimiento basada en el pliego adjunto:
@@ -54,15 +55,16 @@ Los participantes utilizarán Microsoft 365 Copilot para apoyar el ciclo complet
      - Diapositiva 2: Comparativa de Ofertas (Proveedor Alfa vs Proveedor Beta).
      - Diapositiva 3: Preguntas de Aclaración para la Segunda Ronda de Negociación.
      ```
-   * En la Diapositiva 1, utiliza Copilot en PowerPoint o Copilot Chat para generar o insertar una imagen conceptual solicitando:
+   * En la Diapositiva 1, utiliza el creador de imágenes integradas de Copilot en PowerPoint (o Copilot Chat) solicitando:
      ```text
      Genera una imagen conceptual de estilo corporativo que represente la evaluación de infraestructura tecnológica bancaria, ciberseguridad biométrica y procesamiento masivo de datos.
      ```
    * Guarda esta presentación inicial con el nombre exacto: `Avance_Mesa_Evaluacion_RFP.pptx`.
 
-5. **Consolidación del Informe Técnico en Word:**
-   * Abre el archivo `Pliego_RFP_Abastecimiento_Bancario.docx` en **Microsoft Word**, activa **Copilot en Word** y adjunta el libro `Matriz_Evaluacion_Comparativa_RFP.xlsx`.
-   * Envía la siguiente instrucción para integrar el dictamen técnico:
+5. **Consolidación del Informe Técnico en Microsoft Word:**
+   * Abre el archivo `Pliego_RFP_Abastecimiento_Bancario.docx` en **Microsoft Word**.
+   * Activa **Copilot en Word** (modo **Edición**), haz clic en el ícono de adjuntar y selecciona el libro `Matriz_Evaluacion_Comparativa_RFP.xlsx` generado en el Paso 3.
+   * Envía la siguiente instrucción para integrar el dictamen técnico al final del documento abierto:
      ```text
      Con base en la matriz de evaluación del archivo adjunto Matriz_Evaluacion_Comparativa_RFP.xlsx, redacta e incorpora al final del documento la sección "Dictamen de Homologación de Ofertas y Hallazgos de RFP", detallando los riesgos comerciales, las exclusiones detectadas y las condiciones no negociables para la siguiente ronda.
      ```
@@ -78,7 +80,7 @@ Los participantes utilizarán Microsoft 365 Copilot para apoyar el ciclo complet
    >
    > **Pistas para construir tu prompt e infografía visual en el nuevo PowerPoint con Copilot:**
    > - *Pista Diapositiva 1 (Diagnóstico y Cuadro de Mando):* Solicita a Copilot generar una diapositiva ejecutiva con el resumen de la RFP y la puntuación ponderada global de los proveedores Alfa y Beta. Pide generar una imagen ilustrativa sobre analítica financiera y toma de decisiones en abastecimiento bancario.
-   > - *Pista Diapositiva 2 (Análisis de Trade-Offs Financieros y SLAs):* Pide a Copilot estructurar una comparación visual de los impactos en costos: el riesgo de rígidez de tarifa por usuario de Alfa frente al riesgo de exclusividad y SLA de 99.99% en biometría de Beta.
+   > - *Pista Diapositiva 2 (Análisis de Trade-Offs Financieros y SLAs):* Pide a Copilot estructurar una comparación visual de los impactos en costos: el riesgo de rigidez de tarifa por usuario de Alfa frente al riesgo de exclusividad y SLA de 99.99% en biometría de Beta.
    > - *Pista Diapositiva 3 (Absorción de Variables Macroeconómicas):* Solicita a Copilot diagramar cómo cada propuesta responde al ajuste de SMMLV (23%) e IPC (6%) en Contact Center y la escalabilidad por consumo de tokens en IA Generativa.
    > - *Pista Diapositiva 4 (Estrategia de Ronda 2 y Recomendación):* Pide a Copilot organizar en bloques visuales (Líneas Rojas, Concesiones Posibles y Preguntas de Cierre) la postura que el Banco debe asumir antes de la adjudicación final.
 
