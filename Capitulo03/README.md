@@ -55,10 +55,7 @@ Los participantes utilizarán Microsoft 365 Copilot para apoyar el ciclo complet
      - Diapositiva 2: Comparativa de Ofertas (Proveedor Alfa vs Proveedor Beta).
      - Diapositiva 3: Preguntas de Aclaración para la Segunda Ronda de Negociación.
      ```
-   * En la Diapositiva 1, utiliza el creador de imágenes integradas de Copilot en PowerPoint (o Copilot Chat) solicitando:
-     ```text
-     Genera una imagen conceptual de estilo corporativo que represente la evaluación de infraestructura tecnológica bancaria, ciberseguridad biométrica y procesamiento masivo de datos.
-     ```
+
    * Guarda esta presentación inicial con el nombre exacto: `Avance_Mesa_Evaluacion_RFP.pptx`.
 
 5. **Consolidación del Informe Técnico en Microsoft Word:**
