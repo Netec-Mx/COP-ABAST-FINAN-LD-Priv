@@ -47,9 +47,9 @@ Los participantes utilizarán Microsoft 365 Copilot para realizar un market scan
      ```
 
 4. **Cuestionamiento de proveedores y preguntas de profundización RFI:**
-   * En Copilot Chat, adjunta o vincula el análisis del libro `Benchmark_Mercado_Proveedores.xlsx` y envía:
+   * En Copilot Chat, adjunta el archivo `Benchmark_Mercado_Proveedores.xlsx` generado en el paso 3 y envía:
      ```text
-     Con base en la matriz de benchmark, genera un cuestionario técnico y comercial de RFI (Request for Information) de 6 preguntas estratégicas por categoría (Biometría e IA).
+     Con base en la matriz de benchmark del archivo adjunto Benchmark_Mercado_Proveedores.xlsx, genera un cuestionario técnico y comercial de RFI (Request for Information) de 6 preguntas estratégicas por categoría (Biometría e IA).
      
      Las preguntas deben estar diseñadas para obligar al proveedor a revelar:
      1. Costos ocultos por latencia, soporte o consumo no planificado.
@@ -58,10 +58,11 @@ Los participantes utilizarán Microsoft 365 Copilot para realizar un market scan
      ```
 
 5. **Consolidación del Brief Ejecutivo de Sourcing en Microsoft Word:**
-   * Abre **Microsoft Word** y activa Copilot en el documento.
-   * Solicita la integración del brief ejecutando el siguiente prompt:
+   * Abre **Microsoft Word** en un documento en blanco y activa **Copilot en Word** (modo **Edición**).
+   * Haz clic en el ícono de adjuntar archivo en la barra de Copilot en Word, selecciona y adjunta el libro `Benchmark_Mercado_Proveedores.xlsx` creado en el Paso 3.
+   * Envía la siguiente instrucción para integrar el entregable formal:
      ```text
-     Redacta un Brief Ejecutivo de Inteligencia de Mercado para la Mesa de Sourcing utilizando los resultados de la investigación, el análisis de modelos operativos y el cuestionario RFI.
+     Actúa como un Category Manager de Abastecimiento. Utilizando los datos del archivo adjunto Benchmark_Mercado_Proveedores.xlsx y el cuestionario RFI previamente diseñado, redacta el Brief Ejecutivo de Inteligencia de Mercado para la Mesa de Sourcing.
      
      Estructura el documento en:
      1. Contexto y Dinámica del Mercado de Biometría e IA.
@@ -69,21 +70,21 @@ Los participantes utilizarán Microsoft 365 Copilot para realizar un market scan
      3. Matriz de Preguntas de Profundización RFI.
      4. Recomendaciones de Abastecimiento y Criterios de Validación Humana.
      ```
-   * Guarda el archivo con el nombre exacto: `Brief_Ejecutivo_Sourcing_Mercado.docx`.
+   * Guarda el archivo formal en Word con el nombre exacto: `Brief_Ejecutivo_Sourcing_Mercado.docx`.
 
 6. **EL RETO: Generación de Infografía Ejecutiva de Sourcing (Guiado por Pistas):**
    * Lee atentamente el desafío y las pistas estratégicas que se presentan a continuación.
-   * Utiliza Copilot Chat (aprovechando sus capacidades de estructuración visual, artefactos y generación/sugerencia de imágenes) para crear una **Infografía Ejecutiva de Sourcing** basada en la evidencia compilada en `Brief_Ejecutivo_Sourcing_Mercado.docx`:
+   * Abre Microsoft 365 Copilot Chat y **adjunta explícitamente el archivo Word** `Brief_Ejecutivo_Sourcing_Mercado.docx` creado en el Paso 5 para servir como única fuente de verdad:
 
    > **DESAFÍO DEL RETO:**
-   > Genera una Infografía Ejecutiva completa de Sourcing estructurada en 3 secciones visuales sintéticas para presentar al Comité Directivo de Compras, consolidando el panorama competitivo, la estructura de costos/TCO y la matriz de riesgos con sus preguntas RFI clave.
+   > Con base exclusiva en el archivo adjunto `Brief_Ejecutivo_Sourcing_Mercado.docx`, redacta una instrucción en Copilot Chat para generar una Infografía Ejecutiva de Sourcing formateada y estructurada en 3 secciones visuales sintéticas para el Comité Directivo de Compras.
    >
-   > **Pistas para construir tu prompt e infografía con Copilot:**
-   > - *Pista Sección 1 (Panorama y Competencia):* Pide a Copilot organizar en la infografía una síntesis visual del Market Scan utilizando bloques, íconos conceptuales o esquemas para comparar la alta concentración de mercado en Biometría vs la fragmentación y dinamismo de IA. Solícita la generación de un elemento visual/imagen representativo del ecosistema de arquitectura cloud y biometría.
-   > - *Pista Sección 2 (Estructura de Costos y TCO):* Solicita a Copilot diagramar los drivers de costo ocultos (tokens no planificados, latencia, soporte) y comparar gráficamente el TCO a 3 y 5 años (consumo por demanda vs capacidad reservada).
-   > - *Pista Sección 3 (Matriz de Riesgos y RFI):* Pide a Copilot estructurar con códigos de color visuales (Verde/Amarillo/Rojo) los niveles de riesgo por dependencia tecnológica (lock-in) y destacar las 3 preguntas indispensables que cada proveedor debe responder en el RFI antes de avanzar a la licitación (RFP).
+   > **Pistas para construir tu prompt e infografía con Copilot Chat:**
+   > - *Pista Sección 1 (Panorama y Competencia):* Solicita a Copilot representar el Market Scan dividiendo visualmente la concentración de mercado en Biometría frente al dinamismo de IA. Pídele que genere o describa la composición visual de una imagen/diagrama conceptual sobre arquitectura cloud biométrica.
+   > - *Pista Sección 2 (Estructura de Costos y TCO):* Pide a Copilot estructurar una comparación visual o tabla sintética que identifique los drivers de costo ocultos y el TCO a 3 y 5 años (transaccional vs capacidad reservada).
+   > - *Pista Sección 3 (Matriz de Riesgos y RFI):* Solicita a Copilot formatear con códigos de color visuales (Verde/Amarillo/Rojo) el nivel de riesgo por lock-in y resaltar las 3 preguntas RFI indispensables que los proveedores deben responder antes de pasar al RFP.
 
    * Exporta o guarda el resultado de la infografía generada.
 
 ## Resultado esperado
-Un libro en Excel `Benchmark_Mercado_Proveedores.xlsx`, un documento en Word `Brief_Ejecutivo_Sourcing_Mercado.docx` con las preguntas de RFI y la resolución del reto: la **Infografía Ejecutiva de Sourcing** estructurada y generada con Copilot.
+Un libro en Excel `Benchmark_Mercado_
