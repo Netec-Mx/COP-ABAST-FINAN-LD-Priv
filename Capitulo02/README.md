@@ -87,4 +87,4 @@ Los participantes utilizarán Microsoft 365 Copilot para realizar un market scan
    * Exporta o guarda el resultado de la infografía generada.
 
 ## Resultado esperado
-Un libro en Excel `Benchmark_Mercado_
+Un libro en Excel `Benchmark_Mercado_Proveedores.xlsx`, un documento formal en Word `Brief_Ejecutivo_Sourcing_Mercado.docx` con la integración del RFI y la resolución del reto: la **Infografía Ejecutiva de Sourcing** estructurada y vinculada directamente desde el archivo Word en Copilot Chat.
